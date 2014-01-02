@@ -43,6 +43,7 @@
 
 	<!-- Bob Ross quote -->
 	<div class="container col-lg-4 col-lg-offset-4">
+		<br><br><hr><br><br>
 		<h3><em>
 			<?php
 				$homepage = file_get_contents('http://www.bobrossquotes.com/text');
