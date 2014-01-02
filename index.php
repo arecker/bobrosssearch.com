@@ -5,11 +5,12 @@
 	<link rel="stylesheet" href="css/main.css"> <!-- Site css -->
 	<script type="text/javascript" src="lib/js/jquery.min.js"></script> <!-- Jquery -->
 	<script type="text/javascript" src="js/main.js"></script>
+	<sript type="text/javascript" src="js/ga.js"></script> <!-- Google analytics -->
 </head>
 
 <body>
 
-	<br><br><br><br>
+	<br><br>
 	<!-- Search Box -->
 	<div class="container text-center">
 		<div class="container">
@@ -22,8 +23,8 @@
 	</div><br><br><br>
 	<hr><br>
 
-	<!-- Minecraft -->
-	<div class="container col-lg-3 col-lg-offset-2">
+	<!-- Minecraft 
+	<div class="container col-lg-4 col-lg-offset-2">
 		<h4><i class="fa fa-gamepad fa-fw"></i> Minecraft</h4>
 		<table class="table table-hover">
 			<tr>
@@ -39,17 +40,26 @@
 				<td class="text-center">0/20</td>
 			</tr>
 		</table>
-	</div>
+	</div-->
 
 	<!-- Bob Ross quote -->
 	<div class="container col-lg-4 col-lg-offset-4">
-		<br><br><hr><br><br>
+		<br><br>
 		<h3 class="text-center"><em>
 			<?php
 				$homepage = file_get_contents('http://www.bobrossquotes.com/text');
 				echo $homepage;
 			?>
-		</em></h3>
+		</em></h3><br>
+		<img src="img/bob.jpg" id="bob">
 	</div>
-
 </body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42540208-4', 'reckerfamily.com');
+  ga('send', 'pageview');
+</script>
