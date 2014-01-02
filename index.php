@@ -5,7 +5,6 @@
 	<link rel="stylesheet" href="css/main.css"> <!-- Site css -->
 	<script type="text/javascript" src="lib/js/jquery.min.js"></script> <!-- Jquery -->
 	<script type="text/javascript" src="js/main.js"></script>
-	<sript type="text/javascript" src="js/ga.js"></script> <!-- Google analytics -->
 </head>
 
 <body>
