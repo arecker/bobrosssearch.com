@@ -22,25 +22,6 @@
 	</div><br><br><br>
 	<hr><br>
 
-	<!-- Minecraft 
-	<div class="container col-lg-4 col-lg-offset-2">
-		<h4><i class="fa fa-gamepad fa-fw"></i> Minecraft</h4>
-		<table class="table table-hover">
-			<tr>
-				<td>Status</td>
-				<td class="text-center">online</td>
-			</tr>
-			<tr>
-				<td>Ping</td>
-				<td class="text-center">Value</td>
-			</tr>
-			<tr>
-				<td>Player</td>
-				<td class="text-center">0/20</td>
-			</tr>
-		</table>
-	</div-->
-
 	<!-- Bob Ross quote -->
 	<div class="container col-lg-4 col-lg-offset-4">
 		<br><br>
@@ -59,6 +40,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-42540208-4', 'reckerfamily.com');
+  ga('create', 'UA-42540208-5', 'bobrosssearch.com');
   ga('send', 'pageview');
+
 </script>
