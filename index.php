@@ -1,5 +1,6 @@
 <!doctype html>
 <head>
+        <link rel="icon" type="image/gif" href="img/favicon.gif"> <!-- Favicon -->
 	<link rel="stylesheet" href="lib/css/bootstrap.min.css"> <!-- Bootstrap -->
 	<link rel="stylesheet" href="lib/css/font-awesome.min.css"> <!-- Font Awesome -->
 	<link rel="stylesheet" href="css/main.css"> <!-- Site css -->
@@ -31,7 +32,7 @@
 				echo $homepage;
 			?>
 		</em></h3><br>
-		<img src="img/bob.jpg" id="bob">
+		<a href="https://github.com/arecker/bobrosssearch.com" title="Fork me on GitHub"><img src="img/bob.jpg" id="bob"></a>
 	</div>
 </body>
 <script>
