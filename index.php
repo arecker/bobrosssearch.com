@@ -1,5 +1,6 @@
 <!doctype html>
 <head>
+        <title>Bob Ross Search</title>
         <link rel="icon" type="image/gif" href="img/favicon.gif"> <!-- Favicon -->
 	<link rel="stylesheet" href="lib/css/bootstrap.min.css"> <!-- Bootstrap -->
 	<link rel="stylesheet" href="lib/css/font-awesome.min.css"> <!-- Font Awesome -->
