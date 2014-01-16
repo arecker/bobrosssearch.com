@@ -2,11 +2,6 @@
 <head>
         <title>Bob Ross Search</title>
         <link rel="icon" type="image/gif" href="img/favicon.gif"> <!-- Favicon -->
-	<link rel="stylesheet" href="lib/css/bootstrap.min.css"> <!-- Bootstrap -->
-	<link rel="stylesheet" href="lib/css/font-awesome.min.css"> <!-- Font Awesome -->
-	<link rel="stylesheet" href="css/main.css"> <!-- Site css -->
-	<script type="text/javascript" src="lib/js/jquery.min.js"></script> <!-- Jquery -->
-	<script type="text/javascript" src="js/main.js"></script>
 </head>
 
 <body>
@@ -36,6 +31,88 @@
 		<a href="https://github.com/arecker/bobrosssearch.com" title="Fork me on GitHub"><img src="img/bob.jpg" id="bob"></a>
 	</div>
 </body>
+
+<footer>
+<link rel="stylesheet" href="lib/css/bootstrap.min.css"> <!-- Bootstrap -->
+        <link rel="stylesheet" href="lib/css/font-awesome.min.css"> <!-- Font Awesome -->
+       
+        <script type="text/javascript" src="lib/js/jquery.min.js"></script> <!-- Jquery -->
+
+<style>
+
+#searchBox {
+        margin: 0 auto;
+        width: 60%;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: #E6E6E6;
+}
+
+#bob {
+        position: relative;
+        left: 40%;
+}
+</style>
+
+<script>
+// main.js
+$(document).ready(function(){
+
+        searchListen();
+        searchTrigger();
+        focusOnSearch();
+
+});
+
+
+// Helper functions
+function focusOnSearch()
+{
+        $('#searchBox').val('');
+        $('#searchBox').focus();
+}
+
+function searchListen()
+{
+        $('#searchBox').on('keyup change', function(){
+
+                var val = $(this).val();
+
+                if ( val == "" )
+                {
+                        $('#searchBox').css('border-color', '#E6E6E6');
+                }
+
+                else {
+                        $('#searchBox').css('border-color', 'black');
+                }
+
+        });
+}
+
+function searchTrigger()
+{
+        $('#searchBox').keypress(function(event){
+
+                var keycode = (event.keyCode ? event.keyCode : event.which);
+                if(keycode == '13' && $('#searchBox').val() !== ""){
+                        searchIt();
+                }
+
+        });
+}
+
+function searchIt()
+{
+        var box=document.getElementById('searchBox');
+    window.location.href='http://www.google.com/search?q='+escape(box.value);
+}
+</script>
+
+
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -46,3 +123,4 @@
   ga('send', 'pageview');
 
 </script>
+</footer>
