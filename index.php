@@ -1,5 +1,6 @@
 <!doctype html>
 <head>
+	<meta charset="UTF-8">
         <title>Bob Ross Search</title>
         <link rel="icon" type="image/gif" href="img/favicon.gif"> <!-- Favicon -->
         <meta name="description" content="Begin each Internet query with wisdom from Bob Ross.">
