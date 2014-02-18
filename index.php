@@ -29,7 +29,7 @@
 				echo $homepage;
 			?>
 		</em></h3><br>
-		<a href="https://github.com/arecker/bobrosssearch.com" title="Fork me on GitHub"><img src="img/bob.jpg" id="bob"></a>
+		<a href="https://github.com/arecker/bobrosssearch.com" title="Fork me on GitHub"><img src="img/bob.jpg" id="bob" alt="Bob Ross"></a>
 	</div>
 </body>
 
