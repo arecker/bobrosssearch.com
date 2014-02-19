@@ -4,6 +4,7 @@
         <title>Bob Ross Search</title>
         <link rel="icon" type="image/gif" href="img/favicon.gif" media="screen"/> <!-- Favicon -->
         <meta name="description" content="Begin each Internet query with wisdom from Bob Ross.">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 
 <body>
