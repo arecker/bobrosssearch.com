@@ -63,7 +63,7 @@ $(document).ready(function(){
             'Roll it in a little bright red and lets sign this right in here. Luckily I have a short name so it\'s easy to sign.',
             'And just go straight in like your going to stab it. And barely touch it...barely touch it.',
             'When we teach people to paint this is the one they fall in love with. It works so well.',
-        ]
+        ];
     
     searchBox
         .on('keyup change', function(){
