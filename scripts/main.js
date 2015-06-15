@@ -76,9 +76,8 @@ $(document).ready(function(){
 
         .keypress(function(event){
             var keycode = (event.keyCode ? event.keyCode : event.which);
-            if(keycode == '13' && searchBox.val() !== ""){
-                var box=document.getElementById('searchBox');
-                window.location.href='http://www.google.com/search?q='+escape(box.value);
+            if (keycode == '13' && searchBox.val() !== ""){
+                window.location.href='http://www.google.com/search?q='+escape(searchBox.val());
             }
         });
     
