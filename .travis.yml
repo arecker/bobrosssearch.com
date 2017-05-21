@@ -1,0 +1,16 @@
+language: ruby
+
+before_install:
+  - pip install --user awscli
+  - export PATH=$PATH:$HOME/.local/bin
+
+script: echo "nothing to do"
+
+after_success: aws s3 sync $TRAVIS_BUILD_DIR/ s3://bobrosssearch.com/
+
+notifications:
+  email: false
+
+branches:
+  only:
+    - master
